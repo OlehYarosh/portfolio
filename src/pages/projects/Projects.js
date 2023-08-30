@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div>
             <h1>Сторінка Projects</h1>
-            <Link to='project-details'>Перейти до ProjectDetails</Link>
+            <Link to='project-details'>Перейти до ProjectDetails перевірка</Link>
         </div>
     )
 }

@@ -10,7 +10,7 @@ import Contacts from './pages/contacts/Contacts';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path='/' >
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+

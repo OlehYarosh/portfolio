@@ -1,5 +1,3 @@
-// Projects.js
-
 import React from 'react';
 import '../../styles/pages/projects/Projects.css';
 import { Link } from 'react-router-dom';

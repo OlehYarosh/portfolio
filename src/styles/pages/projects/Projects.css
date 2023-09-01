@@ -15,7 +15,6 @@
     max-width: 20%;
     margin-left: auto;  
     margin-right: auto;
-    margin-bottom: 0;
 }
 
 .container {
@@ -101,5 +100,5 @@ h2 {
 
 .future-project {
     margin-top: 100px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }

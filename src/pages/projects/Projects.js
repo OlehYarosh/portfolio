@@ -8,7 +8,7 @@ const Projects = ({ myProjects, futureProjects }) => {
   return (
     <div className='projects-body'>
         <div className='my-project'>
-            <h1>Мої проекти</h1>
+            <h1 className='h-style'>Мої проекти</h1>
             <div className='project-row'>
                 <Link to='project-details' style={{ color: 'inherit' }}>
                     {myProjects.map((project) => (
@@ -24,7 +24,7 @@ const Projects = ({ myProjects, futureProjects }) => {
         </div>
 
         <div className='future-project'>
-            <h1>Майбутні проекти</h1>
+            <h1 className='h-style'>Проекти в розробці</h1>
             <div className='project-row'>
                 {futureProjects.map((project) => (
                 <div className='card-project' key={project.id}>

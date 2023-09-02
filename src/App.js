@@ -1,4 +1,3 @@
-// App.js
 import './styles/App.css';
 import './styles/pages/Header.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

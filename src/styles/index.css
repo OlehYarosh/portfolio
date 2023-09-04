@@ -1,5 +1,7 @@
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
-  background-color: rgba(0,0,0, 0.8);
+  background-image: url('../assets/bg.png');
+  background-size: cover;
+  background-attachment: fixed;
 }

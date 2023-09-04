@@ -1,3 +1,54 @@
-h1 {
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact-card {
+    background-color: #dad5d5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
     text-align: center;
+}
+
+.contact-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.user-image {
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+.user-text {
+    font-size: 16px;
+}
+
+.contact-details {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.user-number,
+.user-email {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.user-email a {
+    text-decoration: none;
+    color: #0077cc;
+    transition: color 0.3s ease;
+}
+
+.user-email a:hover {
+    color: #0055aa;
 }

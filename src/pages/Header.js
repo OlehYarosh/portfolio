@@ -6,7 +6,7 @@ const Header = () => {
         <nav className="navigation">
             <Link to='/'>Проекти</Link>
             <Link to='/skills'>Навички</Link> 
-            <Link to='/jobs'>Вакансії</Link>
+            <Link to='/jobs'>Досвід</Link>
             <Link to='/contacts'>Контакти</Link>
         </nav>
     )

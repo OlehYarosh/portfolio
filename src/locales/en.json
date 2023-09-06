@@ -1,0 +1,56 @@
+{
+  "header": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "jobs": "Experience",
+    "contacts": "Contacts"
+  },
+  "projects": {
+    "myProjectsH": "My projects",
+    "futureProjectsH": "Potential projects",
+    "myProjectsTitle": "FellowshipTweets",
+    "futureProjectsTitleId1": "E-sports",
+    "futureProjectsTitleId2": "MovieRate",
+    "myProjectsDescription": "A small task that turned into a mini tweeter from the Lord of the Rings universe. The goal of the task was to create a functional component that can be used to display tweet-type posts",
+    "futureProjectsDescriptionId1": "One-page online store of gaming chairs, there is already a ready-made layout in Figma, the project itself will be developed in the near future",
+    "futureProjectsDescriptionId2": "My own project, the idea of it for viewing the rating of films from popular film critics and not only, the project is not in the best condition at the moment, will be developed in my spare time after the E-sports project"
+  },
+  "projectDetails": {
+    "title": "FellowshipTweets",
+    "description": "A small task for mastering components in React, which grew into a FellowshipTweets mini project. The main goal was to create a component in the form of a post from Twitter or Facebook. The project used 2 components, one per post and the other per user, no additional libraries were used except for React. After the implementation of the component, the idea came up, why not make a mini tweeter from the Lord of the Rings universe, the result can be seen at the link.",
+    "link": "FellowshipTweets"
+  },
+  "skills": {
+    "header": "My Skills",
+    "descriptionHtml": "Confident level of web development using HTML",
+    "descriptionCss": "Experience in CSS style design development",
+    "descriptionJs": "JavaScript programming understanding and experience",
+    "descriptionReact": "Good level of web application development using the React library",
+    "descriptionNpm": "Sufficient experience with npm in web development",
+    "descriptionSql": "Basic knowledge and experience of using the SQL language to manage relational databases",
+    "descriptionWebpack": "Adequate use of Webpack to assemble and optimize web applications",
+    "descriptionRedux": "Sufficient level of Redux usage for managing application state in web development",
+    "descriptionBootstrap": "A basic level of using the Bootstrap framework to create modern and responsive web interfaces"
+  },
+  "jobs": {
+    "experienceH": "Experience",
+    "experienceTitle": "Front-End Developer (Expected)",
+    "experienceDescription": "Start: 2023 (Expected). I plan to develop web applications and create visually attractive interfaces",
+    "educationH": "Education",
+    "educationTitle1": "Bachelor's degree, Information systems and technologies",
+    "educationDescription1": "Ivan Franko National University, 2020 - until now. Main subjects: algorithms, programming, databases",
+    "educationTitle2": "JavaScript : Immersion",
+    "educationDescription2": "WayUp, start/end: 2021. Free course with basic JS lessons",
+    "educationTitle3": "Basics of HTML/CSS",
+    "educationDescription3": "GoIT, start/end: 2022. Free demo course with HTML/CSS basics",
+    "educationTitle4": "Front-End Advanced",
+    "educationDescription4": "Cursor, start: 06.2023, end: 09.2023. Online course with in-depth study of javascript and other frameworks/libraries"
+  },
+  "contacts": {
+    "name": "Oleh Yarosh",
+    "description": "Enthusiastic web developer who is always willing to learn new technologies and make web applications more interactive.",
+    "number": "Working number: +380682886168",
+    "email": "Working mail: "
+  }
+}
+  

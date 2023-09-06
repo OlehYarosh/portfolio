@@ -19,3 +19,27 @@
     color: darkolivegreen;
     font-style: italic;
 }
+
+.navigation button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 600;
+    position: relative;
+}
+
+.navigation button:not(:last-child)::after {
+    content: '/';
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.navigation button:hover {
+    color: rgb(124, 161, 60);
+}

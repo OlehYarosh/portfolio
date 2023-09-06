@@ -1,37 +1,40 @@
 import React from 'react';
 import '../../styles/pages/jobs/Jobs.css';
 import JobsCard from '../../components/JobsCard';
+import { useTranslation } from 'react-i18next';
 
 const Jobs = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="jobs-container">
             <div className="experience">
-                <h1 className="jobs-header">Досвід роботи</h1>
+                <h1 className="jobs-header">{t('jobs.experienceH')}</h1>
 
                 <JobsCard 
-                    title='Front-End Розробник (Очікувана)'
-                    description='Початок: 2023 (Очікується). Планую займатися розробкою веб-додатків та створенням візуально привабливих інтерфейсів'
+                    title={t('jobs.experienceTitle')}
+                    description={t('jobs.experienceDescription')}
                 />
             </div>
 
             <div className="education">
-                <h1 className="jobs-header">Освіта</h1>
+                <h1 className="jobs-header">{t('jobs.educationH')}</h1>
 
                 <JobsCard 
-                    title="Бакалавр, Інформаційні системи та технології"
-                    description='ЛНУ імені Івана Франка, 2020 - дотепер. Основні предмети: алгоритми, програмування, бази даних'
+                    title={t('jobs.educationTitle1')}
+                    description={t('jobs.educationDescription1')}
                 />
                 <JobsCard 
-                    title='JavaScript : Занурення'
-                    description='WayUp, початок/кінець: 2021. Безкоштовний курс з базовими уроками по JS'
+                    title={t('jobs.educationTitle2')}
+                    description={t('jobs.educationDescription2')}
                 />
                 <JobsCard 
-                    title='Основи HTML/CSS'
-                    description='GoIT, початок/кінець: 2022. Безкоштовний демо курс з основами HTML/CSS'
+                    title={t('jobs.educationTitle3')}
+                    description={t('jobs.educationDescription3')}
                 />
                 <JobsCard 
-                    title='Front-End Advanced'
-                    description='Cursor, початок/кінець: 2023. Онлайн курс з поглибленим вивченням javascript та інших фреймворків/бібліотек'
+                    title={t('jobs.educationTitle4')}
+                    description={t('jobs.educationDescription4')}
                 />
             </div>
         </div>

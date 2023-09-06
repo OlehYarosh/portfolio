@@ -9,8 +9,29 @@ import Jobs from './pages/jobs/Jobs';
 import Contacts from './pages/contacts/Contacts';
 import { Provider } from 'react-redux';
 import store from './pages/projects/store/store.js';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
 
 function App() {
+  i18n
+  .use(initReactI18next)
+  .init({
+    lng: 'uk',
+    resources: {
+      en: {
+        translation: require('./locales/en.json')
+      },
+      uk: {
+        translation: require('./locales/uk.json')
+      }
+    },
+    fallbackLng: "en",
+
+    interpolation: {
+      escapeValue: false
+    }
+  });
+  
   return (
     <Provider store={store}>
       <BrowserRouter basename={process.env.PUBLIC_URL}>

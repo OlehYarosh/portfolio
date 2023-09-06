@@ -10,56 +10,59 @@ import npm from '../../assets/skills/npm.png'
 import bootstrap from '../../assets/skills/bootstrap.png'
 import sql from '../../assets/skills/sql.png'
 import webpack from '../../assets/skills/webpack.png'
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="skills-container">
-            <h1 className="skills-title">Мої Навички</h1>
+            <h1 className="skills-title">{t('skills.header')}</h1>
             <div className="skills-list">
                 <SkillsCard 
                     image={html}
                     title='HTML'
-                    description='Впевнений рівень веб-розробки з використанням HTML'
+                    description={t('skills.descriptionHtml')}
                 />
                 <SkillsCard
                     image={css}
                     title='CSS'
-                    description='Досвід розробки стильового дизайну на CSS'
+                    description={t('skills.descriptionCss')}
                 />
                 <SkillsCard 
                     image={js}
                     title='JS'
-                    description='Розуміння та досвід програмування на JavaScript'
+                    description={t('skills.descriptionJs')}
                 />
                 <SkillsCard 
                     image={react}
                     title='React'
-                    description='Хороший рівень розробки веб-додатків з використанням бібліотеки React'
+                    description={t('skills.descriptionReact')}
                 />
                 <SkillsCard 
                     image={npm}
                     title='npm'
-                    description='Достатній рівень роботи з npm у веб-розробці'
+                    description={t('skills.descriptionNpm')}
                 />
                 <SkillsCard 
                     image={sql}
                     title='SQL'
-                    description='Основні знання та досвід використання мови SQL для управління реляційними базами даних'
+                    description={t('skills.descriptionSql')}
                 />
                 <SkillsCard 
                     image={webpack}
                     title='Webpack'
-                    description='Достатній рівень використання Webpack для збору та оптимізації веб-додатків'
+                    description={t('skills.descriptionWebpack')}
                 />
                 <SkillsCard 
                     image={redux}
                     title='Redux'
-                    description='Достатній рівень використання Redux для керування станом додатків у веб-розробці'
+                    description={t('skills.descriptionRedux')}
                 />
                 <SkillsCard 
                     image={bootstrap}
                     title='Bootstrap'
-                    description='Базовий рівень використання фреймворку Bootstrap для створення сучасних та адаптивних веб-інтерфейсів'
+                    description={t('skills.descriptionBootstrap')}
                 />
             </div>
         </div>

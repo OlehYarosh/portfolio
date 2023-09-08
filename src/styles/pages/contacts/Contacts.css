@@ -52,3 +52,10 @@
 .user-email a:hover {
     color: #0055aa;
 }
+
+@media (max-width: 1300px) {
+    .contact-container {
+        margin: 40px;
+        margin-top: 60px;
+    }
+}

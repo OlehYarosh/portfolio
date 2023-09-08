@@ -27,10 +27,11 @@
     "descriptionJs": "JavaScript programming understanding and experience",
     "descriptionReact": "Good level of web application development using the React library",
     "descriptionNpm": "Sufficient experience with npm in web development",
-    "descriptionSql": "Basic knowledge and experience of using the SQL language to manage relational databases",
+    "descriptionSql": "Basic knowledge for using the SQL language to manage relational databases",
     "descriptionWebpack": "Adequate use of Webpack to assemble and optimize web applications",
     "descriptionRedux": "Sufficient level of Redux usage for managing application state in web development",
-    "descriptionBootstrap": "A basic level of using the Bootstrap framework to create modern and responsive web interfaces"
+    "descriptionBootstrap": "A basic level of using Bootstrap to create modern and responsive web interfaces",
+    "descriptionGitGithub": "Proficient use of Git and GitHub"
   },
   "jobs": {
     "experienceH": "Experience",

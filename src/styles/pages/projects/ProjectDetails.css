@@ -1,5 +1,6 @@
 .thumbnail-image {
-    height: 390px;
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 0 auto;
     background-color: #ccc;
@@ -57,7 +58,7 @@
 }
 
 .left-side {
-    flex: 1;
+    flex: 2;
     padding: 20px;
 }
 
@@ -97,4 +98,24 @@
 .right-side a:hover {
     text-decoration: underline;
     background-color: #0055aa;
+}
+
+@media (max-width: 1300px) {
+    .thumbnail-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .right-side {
+        padding: 20px;
+        background-color: #f0f0f0;
+        margin: 100px;
+        border-radius: 1%;
+    }
 }

@@ -10,6 +10,7 @@ import npm from '../../assets/skills/npm.png'
 import bootstrap from '../../assets/skills/bootstrap.png'
 import sql from '../../assets/skills/sql.png'
 import webpack from '../../assets/skills/webpack.png'
+import git_github from '../../assets/skills/git&github.png'
 import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
@@ -63,6 +64,11 @@ const Skills = () => {
                     image={bootstrap}
                     title='Bootstrap'
                     description={t('skills.descriptionBootstrap')}
+                />
+                <SkillsCard 
+                    image={git_github}
+                    title='Git & Github'
+                    description={t('skills.descriptionGitGithub')}
                 />
             </div>
         </div>

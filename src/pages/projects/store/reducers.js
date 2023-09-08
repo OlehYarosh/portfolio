@@ -5,6 +5,7 @@ import project3 from '../../../assets/project3.png';
 const initialState = {
     myProjects: [
         {
+            id: 1,
             image: project1
         },
     ],

@@ -109,7 +109,7 @@
     .container {
         display: block;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .right-side {
@@ -117,5 +117,8 @@
         background-color: #f0f0f0;
         margin: 100px;
         border-radius: 1%;
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
